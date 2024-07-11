@@ -60,10 +60,11 @@ print("---------")
 # task 4
 """  Написати функцію, яка приймає рядок та повертає його у зворотному порядку.
 """
-list_of_values = ["hi", "hello", "world", "!"]
-def reverse_list(arr:list):
-    return arr[::-1]
-print(reverse_list(list_of_values))
+str_before = "hi, hello, world, "
+def reverse_string(str1:str)->str:
+    return str1[::-1]
+print(f"Початковий рядок: '{str_before}'")
+print(f"Рядок у зворотному порядку: '{reverse_string(str_before)}'")
 print("---------")
 
 
